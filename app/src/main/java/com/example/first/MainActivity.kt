@@ -6,8 +6,6 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -20,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         var v=0
         btn.setOnClickListener {
             v++
-            view.setText(""+v)
+            view.setText("You Clicked Button "+v+" times")
         }
     }
 
