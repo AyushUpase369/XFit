@@ -19,11 +19,11 @@ class MainActivity : AppCompatActivity() {
         var v=0
         btn.setOnClickListener {
             v++
-            view.setText(""+v)
+            view.setText("Counting Increased by "+v)
         }
         btn2.setOnClickListener{
             v--
-            view.setText(""+v)
+            view.setText("Counting Increased by "+v)
         }
     }
 
