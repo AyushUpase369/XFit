@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
         btn2.setOnClickListener{
             v--
-            view.setText("Counting Increased by "+v)
+            view.setText("Counting Decreased by "+v)
         }
     }
 
